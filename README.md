@@ -6,19 +6,24 @@ Find the company and their geolocation by IP.
 
 ## Installation
 
+Install via Gemfile:
+
+
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'ipgeobase'
+source "https://rubygems.pkg.github.com/yournumberone" do
+  gem "ipgeobase", "0.1.0"
+end 
 ```
 
 And then execute:
 
-    $ bundle install
+    bundle install
 
 Or install it yourself as:
 
-    $ gem install ipgeobase
+    gem install ipgeobase --version "0.1.0" --source "https://rubygems.pkg.github.com/yournumberone"
 
 ## Usage
 
