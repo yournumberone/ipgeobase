@@ -10,7 +10,6 @@ module Ipgeobase
     def self.lookup(ip)
       url = BASE_URL + ip.to_s
       response = HTTParty.get(url).to_h
-      
       response.each do |k, v|
         instance_variable_set "@#{k}", v
         response.define_singleton_method k do
