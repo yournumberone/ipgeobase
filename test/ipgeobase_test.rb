@@ -2,12 +2,12 @@ require "test_helper"
 
 class IpgeobaseTest < Minitest::Test
 
-  # def test_some
-  #   p hhehe = Ipgeobase.lookup("80.95.45.114")
-  #   p hoho = Ipgeobase.lookup("77.88.21.37")
-  #   assert_equal(1, 1)
-  #   assert_equal(hoho.country, "Russia")
-  # end
+  def test_some
+    p hhehe = Ipgeobase.lookup("80.95.45.114")
+    p hoho = Ipgeobase.lookup("77.88.21.37")
+    assert_equal(1, 1)
+    assert_equal(hoho.country, "Russia")
+  end
 
   # def test_webmock
   #   yandex = File.new("./test/yandex.json")
