@@ -22,16 +22,16 @@ Or install it yourself as:
 
 ## Usage
 
-`$ ip_meta = Ipgeobase.lookup('8.8.8.8')
-$ ip_meta.city # Ashburn
-$ ip_meta.country # United States
-$ ip_meta.countryCode # US
-$ ip_meta.lat # 39.03
-$ ip_meta.lon= # -77.5
-$ ip_meta # full hash
-$ ip_meta.timezone # "America/New_York"
-$ ip_meta.org #	"Google Public DNS"
-$ ip_meta.regionName # "Virginia"`
+    `$ ip_meta = Ipgeobase.lookup('8.8.8.8')`
+    `$ ip_meta.city # Ashburn`
+    `$ ip_meta.country # United States`
+    `$ ip_meta.countryCode # US`
+    `$ ip_meta.lat # 39.03`
+    `$ ip_meta.lon= # -77.5`
+    `$ ip_meta # full hash`
+    `$ ip_meta.timezone # "America/New_York"`
+    `$ ip_meta.org #	"Google Public DNS"`
+    `$ ip_meta.regionName # "Virginia"`
 
 and more
 
