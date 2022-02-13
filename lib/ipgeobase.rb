@@ -19,5 +19,6 @@ module Ipgeobase
           v
         end
       end
+      @hashed_answer
     end
 end
