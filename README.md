@@ -19,11 +19,11 @@ end
 
 And then execute:
 
-    $ bundle install
+    bundle install
 
 Or install it yourself as:
 
-    $ gem install ipgeobase --version "0.1.0" --source "https://rubygems.pkg.github.com/yournumberone"
+    gem install ipgeobase --version "0.1.0" --source "https://rubygems.pkg.github.com/yournumberone"
 
 ## Usage
 
