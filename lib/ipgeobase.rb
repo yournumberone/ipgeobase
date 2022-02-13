@@ -9,7 +9,8 @@ module Ipgeobase
     BASE_URL = "http://ip-api.com/json/"
     # принимает IP-адрес и возвращает объект метаданных
     def self.lookup(ip)
-      @url = URI(BASE_URL + ip.to_s)
+      uri = BASE_URL + ip.to_s
+      @url = URI.parse(uri)
       @answer_json = Net::HTTP.get(@url)
       @hashed_answer = JSON.parse(@answer_json)
       @hashed_answer.transform_keys! { |k| k.to_sym }
