@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["mars.shamgulov@gmail.com"]
 
   spec.summary       = "while without description"
-  spec.description   = "Just description"
+  spec.description   = "Description"
   spec.homepage      = "https://github.com/yournumberone/ipgeobase"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
