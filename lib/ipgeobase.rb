@@ -7,8 +7,8 @@ module Ipgeobase
     BASE_URL = "http://ip-api.com/json/"
     # принимает IP-адрес и возвращает объект метаданных
     def self.lookup(ip)
-      url = BASE_URL + ip
-      response = HTTParty.get(url)
+      url = BASE_URL + ip.to_s
+      response = HTTParty.get(url, format: :plain)
       response = JSON.parse response, symbolize_names: true
       response.each do |k, v|
         instance_variable_set "@#{k}", v
