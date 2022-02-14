@@ -8,12 +8,12 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "while without description"
   spec.description   = "Description"
-  spec.homepage      = "https://github.com/yournumberone/ipgeobase"
+  spec.homepage      = "https://github.com/yournumberone/ipgeobase.git"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/yournumberone/ipgeobase"
-  spec.metadata["changelog_uri"] = "https://github.com/yournumberone/ipgeobase"
+  spec.metadata["source_code_uri"] = "https://github.com/yournumberone/ipgeobase.git"
+  spec.metadata["changelog_uri"] = "https://github.com/yournumberone/ipgeobase.git"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
