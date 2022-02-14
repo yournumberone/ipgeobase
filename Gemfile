@@ -11,3 +11,4 @@ group :test do
 end
 
 gem 'json'
+gem 'faraday'
