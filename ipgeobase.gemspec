@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.summary       = "while without description"
   spec.description   = "Description"
   spec.homepage      = "https://github.com/yournumberone/ipgeobase.git"
-  spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
+  spec.required_ruby_version = Gem::Requirement.new(">= 3.1.0")
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/yournumberone/ipgeobase.git"
