@@ -10,5 +10,4 @@ group :test do
   gem "webmock"
 end
 
-gem 'json'
 gem 'httparty'
