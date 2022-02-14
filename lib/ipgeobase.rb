@@ -16,6 +16,7 @@ module Ipgeobase
       conn = Faraday.new(@base_url) do |f|
         f.request :json # encode req bodies as JSON
         f.adapter :net_http # Use the Net::HTTP adapter
+        f.headers { 'Accept' => 'text/html' }
       end
       response = conn.get(ip.to_s)
       result = JSON.parse(response.body)
