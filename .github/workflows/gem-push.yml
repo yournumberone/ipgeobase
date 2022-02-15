@@ -1,9 +1,0 @@
-- name: Publish gem
-  # You may pin to the exact commit or the version.
-  # uses: dawidd6/action-publish-gem@c4713bf1595e0686322d6cf6c1a1c0dcaeca55de
-  uses: dawidd6/action-publish-gem@v1.2.0
-  with:
-    # Rubygems.org API key
-    api_key: # optional
-    # GitHub Packages token
-    github_token: # optional
