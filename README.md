@@ -39,7 +39,7 @@ Or install it yourself as:
     
     $ ip_meta.lat # 39.03
     
-    $ ip_meta.lon= # -77.5
+    $ ip_meta.lon # -77.5
     
     $ ip_meta # full hash
     
