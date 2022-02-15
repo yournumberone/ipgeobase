@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    ipgeobase (0.1.13)
+    ipgeobase (0.1.14)
 
 GEM
   remote: https://rubygems.org/
