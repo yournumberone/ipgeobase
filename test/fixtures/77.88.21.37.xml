@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<query>
+  <status>success</status>
+  <country>Russia</country>
+  <countryCode>RU</countryCode>
+  <region>MOW</region>
+  <regionName>Moscow</regionName>
+  <city>Moscow</city>
+  <zip>101194</zip>
+  <lat>55.7332</lat>
+  <lon>37.5833</lon>
+  <timezone>Europe/Moscow</timezone>
+  <isp>Yandex enterprise network</isp>
+  <org>Yandex LLC</org>
+  <as>AS208722 Yandex Oy</as>
+  <query>77.88.21.37</query>
+</query>

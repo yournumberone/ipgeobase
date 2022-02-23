@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<query>
+  <status>success</status>
+  <country>United States</country>
+  <countryCode>US</countryCode>
+  <region>WA</region>
+  <regionName>Washington</regionName>
+  <city>Quincy</city>
+  <zip>98848</zip>
+  <lat>47.1988</lat>
+  <lon>-119.8426</lon>
+  <timezone>America/Los_Angeles</timezone>
+  <isp>Oath Holdings Inc.</isp>
+  <org>Oath Holdings Inc</org>
+  <as>AS36647 Oath Holdings Inc.</as>
+  <query>206.190.36.45</query>
+</query>
