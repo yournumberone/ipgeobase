@@ -14,7 +14,7 @@ Add this line to your application's Gemfile:
 
 ```ruby
 source "https://rubygems.pkg.github.com/yournumberone" do
-  gem "ipgeobase", "0.1.0"
+  gem "ipgeobase", "0.2.3"
 end 
 ```
 
