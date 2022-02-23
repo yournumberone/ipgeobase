@@ -1,4 +1,4 @@
-[![Ruby Gem](https://github.com/yournumberone/ipgeobase/actions/workflows/gem-push.yml/badge.svg)](https://github.com/yournumberone/ipgeobase/actions/workflows/gem-push.yml)
+[![Ruby Gem](https://github.com/yournumberone/ipgeobase/actions/workflows/gem-push.yml/badge.svg)](https://github.com/yournumberone/ipgeobase/actions/workflows/gem-push.yml)    [![Ruby](https://github.com/yournumberone/ipgeobase/actions/workflows/ruby.yml/badge.svg)](https://github.com/yournumberone/ipgeobase/actions/workflows/ruby.yml)
 # Ipgeobase
 
 Welcome to Ipgeobase gem!
